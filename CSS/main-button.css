@@ -1,0 +1,25 @@
+.main-button{
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+    box-shadow: 5px 5px 0px gray;
+    transition: ease-in-out 800ms;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.main-button.-left{
+    margin-right: 50px;
+    
+}
+
+.main-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+ .main-button-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
